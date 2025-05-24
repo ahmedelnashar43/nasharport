@@ -1,0 +1,32 @@
+[
+  {
+    "id": "beyti-lab-website",
+    "title": "Beyti Lab Official Website",
+    "description": "This is the public-facing website for Beyti Lab, a subsidiary of Almarai, focused on dairy and juice product testing and quality assurance.",
+    "longDescription": "Highlights the lab's compliance with international standards for testing and calibration (ISO 17025 Accreditation). Details services like dairy and beverage analysis, raw material testing, and allergen detection. Showcases experienced professionals, including the Corporate Quality Director and Lab Leads. Offers appointment booking, contact information, and a FAQ section. Includes images and a video to illustrate the lab's capabilities.",
+    "purpose": "To inform clients and stakeholders about Beyti Lab's services, expertise, and commitment to quality.",
+    "link": "https://beytilab.vercel.app/",
+    "image": "https://beytilab.vercel.app/",
+    "TechStack": ["React", "Tailwind CSS", "Vite", "Vercel"]
+  },
+  {
+    "id": "beyti-lab-login",
+    "title": "Beyti Lab Documentation System Login",
+    "description": "This is a login portal for authorized personnel to access the Beyti Lab Documentation System.",
+    "longDescription": "Requires email and password authentication. Simple design focusing on functionality. Includes password recovery option to reset forgotten passwords.",
+    "purpose": "To provide a secure entry point for staff to access internal documentation and systems.",
+    "link": "https://ahmedelnashar43.github.io/beyti-login-page-/",
+    "image": "https://ahmedelnashar43.github.io/beyti-login-page-/",
+    "TechStack": ["HTML", "CSS", "JavaScript", "Github Pages"]
+  },
+  {
+    "id": "beyti-lab-dashboard",
+    "title": "Beyti Lab Internal Dashboard",
+    "description": "This is an internal dashboard designed for managing and monitoring lab activities.",
+    "longDescription": "Displays metrics like total records, users, and recent activities. Features a specific section for chemical lab data and analytics. Includes tools for data entry and visualization. Provides real-time updates and communication features. Offers options to view and edit user profiles.",
+    "purpose": "To facilitate internal operations, data management, and communication within Beyti Lab.",
+    "link": "https://beytisystem.vercel.app/",
+    "image": "https://beytisystem.vercel.app/",
+    "TechStack": ["React", "Material UI", "Firebase", "Vercel"]
+  }
+] 

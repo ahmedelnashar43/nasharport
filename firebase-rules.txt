@@ -1,0 +1,22 @@
+// Firestore Rules
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow public read access to all portfolio comments
+    match /portfolio-comments/{commentId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}
+
+// Storage Rules
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Allow public read access to all profile images
+    match /profile-images/{imageId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+} 
